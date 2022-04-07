@@ -1,201 +1,177 @@
-:roof() 
 
-body{
-   background-color: #FFFFFF; 
-   color: #757575;
+:root{
+    --main-font:'Roboto', sans-serif;
+    --logo-font:'Raleway',sans-serif;
+    --main-color:#757575;
+    --accent-color:#212121;
+    --logo-color: #2196F3;  
+    --accent-font:#2F303A;
+    --text-color:#FFFFFF;
 }
-.logo2{
-    color: #2196F3;
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
+body{
+    font-family: var(--main-font);    
+    color: var(--main-color);
+    background-color: #E5E5E5;
+    font-style: normal;
+    
 }
 .logo{
-    color: #212121;
-    font-family: Raleway;
-    font-size: 26px;
+    font-family: var(--logo-font);
+    color:var(--accent-color);
+    font-style: normal;
     font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
+    font-size: 26px;
+    text-decoration: none;   
 }
-.site-nav a{
-    color: #212121;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em
-}
-.site-nav a:hover,
-.site-nav a:focus{
-    color: #2196F3
+.logo:hover,
+.logo:focus{
+color: var(--logo-color);
 }
 
-.site-nav2 a{
-    color: #757575;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.logoweb{
+    font-family: var(--logo-font);
+    color: var(--logo-color);
 }
 
-.site-nav2 a:hover,
-.site-nav2 a:focus{
-    color: #2196F3
-}
-.sec1,
-.fyter{
-    background-color: #2F303A;
-}
-.title1{
+.title{
     color: #FFFFFF;
-    ont-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line:height 3,75em;
     text-transform: uppercase;
-    text-align: center;
 }
-.but1{
-    cursor: pointer;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    background-color: #2196F3;
-    
+.title-two{
+    color:var(--accent-color);
 }
-
-.title3{
-    color: #212121;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    
-}
-.text3{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-}
- .title2{
-    color: #212121;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-        
-}
-.title4{
-    color: #212121;
-    font-family: 'Roboto';
-    font-style: normal;
+.logo-list{
+    font-family: var(--logo-font);
+    color: var(--accent-color);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    text-decoration: none;
 }
-.text4{
-    font-family: 'Roboto';
-    font-style: normal;
+.logo-list:hover,
+.logo-list:focus {
+    color: var(--logo-color);
+}
+.logo-listact {
+    font-family: var(--logo-font);
+    color: var(--logo-color);
+}
+.logo-listact:hover,
+.logo-listact:focus{
+color:var(--accent-color);
+}
+.tel{
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+.tel:hover,
+.tel:focus{
+color: var(--logo-color);
+}
+.mail{
+color: var(--logo-color);
+font-weight: 500;
+font-size: 14px;
+}
+.mail:hover,
+.mail:focus{
+color:var(--accent-color);
+}
+.section{
+    background-color:var(--accent-font) ;
+}
+.button{
+    color: var(--text-color);
+    background-color: #2196F3;
+    ont-weight: 700;
+    font-size: 16px;
+    line-height: 1,875em;
+    
+}
+.button:active{
+    color:var(--accent-color)
+}
+.title-details{
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1em;
+}
+.details{
+font-weight: 400;
+font-size: 14px;
+line-height: 1,5em;
+}
+.team{
+color: var(--accent-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1,18em;
+}
+.team-text{
+
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+}
+.town{
+    color:var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,5em;
+}
+.town:hover,
+.town:focus{
+    color:var(--logo-color);
 }
 .logof{
-    color: #FFFFFF;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+    color:var(--text-color);
+    text-decoration: none;
 }
-.logof2{
-    color: #2196F3;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+.logof:hover,
+.logof:focus{
+     color:var(--logo-color);
 }
-.text-f{
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+.footer{
+    background-color: var(--accent-font);
 }
-.fut-tel,
-.fut-em{
-    color: #757575;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
 
+.danif{
+    color:var(--main-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,5em;
 }
-.fut-tel:hover,
-.fut-tel:focus,
-.fut-em:hover,
-.fut-em:focus{
-   color: #2196F3;
+.danif:hover,
+.danif:focus{
+    color:var(--logo-color);
 }
-.but2{
-    cursor: pointer;
-    color: #212121;
+.wokr{
+    color:var(--accent-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,65em;
 }
-.but2:hover{
-    background-color: #2196F3;
-    color: #FFFFFF;
+
+.wokrall{
+    color: var(--text-color);
+    background-color: var(--logo-color);
+    
 }
-.title-page2{
-    color: #212121;
-    font-family: 'Roboto';
-    font-style: normal;
+.title-work{
+    color: var(--accent-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2,25em;
 }
-.taxt-page2{
-    color: #757575;
-    font-family: 'Roboto';
-    font-style: normal;
+.text-wokr{
+    color: var(--main-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,875em;
 }
-/* #21212
-1 колір тексту чорний
-   #757575              сірий 
-   #FFFFFF              білий
-   #2196F3              синій
-   #2F303A              фон сірий; 
-rgba(255, 255, 255, 0.6) для футера*/
-/* Жрифт css з Google fons
-font-family: 'Raleway',
-sans-serif;
-font-family: 'Roboto',
-sans-serif;*/
