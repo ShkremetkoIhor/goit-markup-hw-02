@@ -12,7 +12,7 @@
 body{
     font-family: var(--main-font);    
     color: var(--main-color);
-    background-color:var(--fon-color);
+    background-color:var(--text-color);
     font-size: 14px;
     letter-spacing: 0,03em;  
 }
@@ -42,14 +42,15 @@ color: var(--logo-color);
     color:var(--text-color);
     font-weight: 900;
     font-size: 44px;
-    line:height 3.8;
+    line-height: 3.75;/* по макету 60рх діломо на 16 Що не так?????  я не розумію що не так з числом line-height*/
     text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 .title-two{
     color:var(--accent-color);
 }
 .logo-list{
-    font-family: var(--logo-font);
+    font-family: var(--main-font);
     color: var(--accent-color);
     font-weight: 500;
     text-decoration: none;
@@ -68,7 +69,13 @@ color: var(--logo-color);
 .logo-listact:focus{
 color:var(--accent-color);
 }
+/* 
 .tel.mail {
+    color: var(--main-color);      чому так не спрацьовує до двох класів...
+    font-weight: 500;
+}
+*/
+.tel {
     color: var(--main-color);
     font-weight: 500;
 }
@@ -76,10 +83,10 @@ color:var(--accent-color);
 .tel:focus{
 color: var(--logo-color);
 }
-/*.mail{
+.mail{
     color: var(--main-color);
     font-weight: 500;
-}*/
+}
 .mail:hover,
 .mail:focus{
 color: var(--logo-color);
@@ -90,7 +97,7 @@ color: var(--logo-color);
 .button{
     color: var(--text-color);
     background-color:var(--logo-color);
-    ont-weight: 700;
+    font-weight: 700;
     font-size: 16px;
     line-height:1.9;    
     letter-spacing: 0.06em;
@@ -103,6 +110,7 @@ color: var(--logo-color);
 .title-details{
     color: var(--accent-color);
     font-weight: 700;
+    font-size: 14px;
     line-height: 1;
     text-transform: uppercase;
 }
@@ -177,7 +185,7 @@ line-height: 1.2;
     color: var(--accent-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 2.3;    
+    line-height: 2.3; /* по макету 36рх діломо на 16 =2.25 я заокруглив до 2.3( треба писати 2.25) Що не так????? */
     letter-spacing: 0.06em;
 }
 .text-wokr{
